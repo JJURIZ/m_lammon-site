@@ -1,10 +1,22 @@
-.App {
+.home-page {
+    display: flex;
+    flex-direction: column;
     background-color: #000;
     color:$text-color-lg;
     font-size: $text-size-lg;
+    justify-content: center;
+    align-items: center;
 }
 
-.portrait {
-    height: 30rem;
+.header-lg {
+    text-align: center;
+}
+
+.header-md3 {
+    text-align: center;
+}
+
+.img-long-road {
+    height: 500px;
     border-radius: 5px;
 }
