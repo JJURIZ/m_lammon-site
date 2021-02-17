@@ -1,6 +1,7 @@
-// import { Link } from "react-router-dom";
+
 import React, { useState, useEffect } from "react";
 import TextLoop from "react-text-loop";
+
 import Header from "./Header";
 import Footer from "./Footer";
 import "./main.scss";
