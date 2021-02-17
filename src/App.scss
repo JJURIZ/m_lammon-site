@@ -22,9 +22,20 @@
     letter-spacing: 2px;
     font-weight: 100;
     font-size: 3rem;
+    padding-bottom: 5rem;
 }
 
 .img-long-road {
     height: 500px;
     border-radius: 5px;
+}
+
+.blurbs {
+    border: 1px solid red;
+    width: 40vw;
+    font-size: 2rem;
+
+    &-container {
+        padding-top: 5rem;
+    }
 }
