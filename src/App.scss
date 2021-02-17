@@ -2,18 +2,26 @@
     display: flex;
     flex-direction: column;
     background-color: #000;
+    height: 90vh;
     color:$text-color-lg;
-    font-size: $text-size-lg;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
 }
 
 .header-lg {
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 5rem;
 }
 
 .header-md3 {
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 3rem;
 }
 
 .img-long-road {
