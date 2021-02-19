@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #000;
     min-height: 100vh;
-    color:$text-color-lg;
+    color:$text-color;
     align-items: center;
 }
 
@@ -33,7 +33,7 @@
 .blurbs {
 
     &-container {
-        padding-top: 5rem;
+        padding: 5rem 0;
     }
     &-text {
         width: 60vw;

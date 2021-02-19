@@ -3,3 +3,20 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+
+.article-paragraph {
+    max-width: 50vw;
+    padding-bottom: 5rem;
+    text-indent: 2rem;
+    line-height: 3rem;
+    letter-spacing: .5px;
+}
+
+a {
+    color: $text-color;
+}
+
+a:hover {
+    color: $anchor-hover-color;
+    transition: .5s;
+}

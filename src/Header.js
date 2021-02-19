@@ -2,7 +2,7 @@ import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles"; // imports option to make custom styles
 import { Link } from "react-router-dom";
 
-import About from "./About";
+// import About from "./About";
 // Function to create custom Material UI styles
 const useStyles = makeStyles((theme) => ({
   menuButton: {
@@ -26,6 +26,9 @@ function Header() {
     <header className="App-header">
       <AppBar position="static">
         <Toolbar>
+        <Typography className={classes.menuButton} variant="h6">
+            <Link className={classes.menuButton} to="/">Home</Link>
+          </Typography>
           <Typography className={classes.menuButton} variant="h6">
             <Link className={classes.menuButton} to="/profile">Profile</Link>
           </Typography>
