@@ -1,10 +1,5 @@
-.home-page {
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    min-height: 100vh;
-    color:$text-color;
-    align-items: center;
+.body-page {
+    @include dark-mode-body;
 }
 
 .header-lg {
@@ -17,12 +12,7 @@
 }
 
 .header-md3 {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 100;
-    font-size: 3rem;
-    padding-bottom: 5rem;
+    @include header-md3;
 }
 
 .img-long-road {

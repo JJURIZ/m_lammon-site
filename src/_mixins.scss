@@ -1,0 +1,22 @@
+@mixin dark-mode-header {
+    color: #fff;
+    font-size: 2rem;
+}
+
+@mixin dark-mode-body {
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        min-height: 100vh;
+        color:$text-color;
+        align-items: center;
+}
+
+@mixin header-md3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 3rem;
+    padding-bottom: 5rem;
+}

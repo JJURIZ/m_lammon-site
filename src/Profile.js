@@ -20,7 +20,7 @@ function Profile() {
   return (
     <React.Fragment>
       <div className="Profile">
-        <div className="home-page">
+        <div className="body-page">
           <h1 className="header-lg">Martin Lammon</h1>
           <h3 className="header-md3">Professional Profile</h3>
 

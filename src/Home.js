@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import TextLoop from "react-text-loop";
-import Header from "./Header";
-import Footer from "./Footer";
 import "./main.scss";
 
 const Controlled = () => {
@@ -52,7 +50,7 @@ const Controlled = () => {
 function Home(){
     return (
         <div className="App">      
-          <div className="home-page">
+          <div className="body-page">
             <h1 className="header-lg">Martin Lammon</h1>
             <h3 className="header-md3">Poetry & Prose</h3>
             <img
