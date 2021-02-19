@@ -70,7 +70,7 @@ function Profile() {
               (Pennsylvania), Fairmont State (West Virginia), and Georgia
               College. In addition to teaching, he has been a successful
               advocate for the arts: He has created university and community
-              writing programs and reading seriJulie Wan and Lammones; founded
+              writing programs and reading series; founded
               two national literary journals (Kestrel, Arts & Letters); and
               served on local, state, and national arts boards. He has conducted
               dozens of poetry writing programs for young writers (K-12) at
@@ -378,10 +378,10 @@ function Profile() {
 
             <p className="article-paragraph">
               <span className="first-letter-larger">A</span>t Georgia College
-              Lammon founded the university’s MFA program in 2001-2002. In less
+              Lammon founded the university’s <a href="https://www.gcsu.edu/artsandsciences/english/mfa" target="blank">MFA program</a> in 2001-2002. In less
               than 10 years, the program was named one of the nation’s “Top 25
               Underrated Creative Writing MFA Programs (2011-2012mfa students)”
-              in The Huffington Post (spring 2011). The program’s students have
+              in <a href="https://www.huffpost.com/entry/underrated-mfa-programs_b_850147" target="blank">The Huffington Post</a> (spring 2011). The program’s students have
               come from coast to coast: Oregon, Texas, Pennsylvania, Arizona,
               Ohio, New York, Michigan, and even Scotland (U.K.), and of course
               from throughout the Southeast and our home state of Georgia.
@@ -391,6 +391,37 @@ function Profile() {
               and in national journals, won national awards for their writing,
               and are teaching in schools, colleges, and universities throughout
               the U.S. and abroad.
+            </p>
+
+            <p className="article-paragraph">
+              <span className="first-letter-larger">O</span>ver the past 30
+              years, Martin Lammon’s poems and essays have appeared in such
+              literary journals as <em>The Atlanta Review, Black Warrior Review,
+              Chariton Review, Chelsea, Connecticut Review, Gettysburg Review,
+              Hotel Amerika, Mid-American Review, Midwest Quarterly, Mississippi
+              Review, New Virginia Review, Ploughshares, Poet Lore, Poets &
+              Writers, Puerto del Sol, The Southern Review, West Branch</em> and many
+              others.
+            </p>
+
+            <p className="article-paragraph">
+              <span className="first-letter-larger">T</span>hrough his efforts,
+              Martin Lammon has helped to create publication, reading, and
+              educational opportunities for hundreds of writers, both new and
+              experienced, unknown and accomplished. Over the past 30 years, he
+              has worked with other generous supporters to help establish
+              honoraria for Georgia College visiting writers as well as Arts &
+              Letters contributors; endowed funding for the Arts & Letters
+              annual prizes; and endowed scholarships for creative writing
+              students at Georgia College.
+            </p>
+
+            <p className="article-paragraph">
+              <em><span className="first-letter-larger">A</span>fter living for
+              nearly 20 years in Milledgeville, Georgia, he now lives in Atlanta
+              and is looking forward to contributing to his new community and
+              continuing his ongoing national efforts to advocate for the
+              literary arts.</em>
             </p>
           </article>
         </div>
