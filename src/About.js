@@ -8,7 +8,7 @@ function About() {
         <h1 className="header-lg">Martin Lammon</h1>
         <h3 className="header-md3 about">About</h3>
         <hr className="horizontial-line"></hr>
-        <h3 className="header-md3">A Poet's First Person Look Back</h3>
+        <h3 className="header-md3 title">A Poet's First Person Look Back</h3>
         <img
           src="https://martinlammon.files.wordpress.com/2017/07/cropped-baseball_at_sunset.png"
           alt="Man at bat"

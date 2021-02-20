@@ -26,7 +26,7 @@ const Controlled = () => {
 
   useEffect(() => {
     const intervalStartTimeout = setTimeout(() => {
-      setInterval(1000); // How long the blurb appears on the screen
+      setInterval(30000); // How long the blurb appears on the screen
     }, 10);
     return () => {
       clearTimeout(intervalStartTimeout);
@@ -53,6 +53,7 @@ function Home(){
           <div className="body-page">
             <h1 className="header-lg">Martin Lammon</h1>
             <h3 className="header-md3">Poetry & Prose</h3>
+            <h3 className="header-md3 title">Now Available - The Long Road Home</h3>
             <img
               src="https://martinlammon.files.wordpress.com/2019/11/long-road-home-poems-by-martin-lammon.jpg"
               className="img-long-road" alt="Long Road Home Cover"

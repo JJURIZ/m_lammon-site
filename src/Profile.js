@@ -11,7 +11,7 @@ import { makeStyles } from "@material-ui/core/styles"; // imports option to make
 
 const useStyles = makeStyles((theme) => ({
   timeline: {
-    color: "red",
+    color: "#319BEB",
   },
 }));
 

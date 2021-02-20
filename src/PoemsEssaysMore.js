@@ -1,7 +1,10 @@
 function PoemsEssaysMore() {
     return(
-        <div>
-            <h1>This is the Poems Page</h1>
+        <div className="Profile">
+        <div className="body-page">
+            <h1 className="header-lg">Martin Lammon</h1>
+            <h3 className="header-md3">Poems, Essays, and More</h3>
+        </div>
         </div>
     )
 }
