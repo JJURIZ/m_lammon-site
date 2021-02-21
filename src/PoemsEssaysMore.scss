@@ -1,0 +1,7 @@
+.header-md2 {
+    @include header-md2;
+
+    &.essay {
+        margin-top: 5rem;
+    }
+}
