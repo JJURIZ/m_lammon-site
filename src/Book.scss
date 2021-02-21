@@ -1,0 +1,53 @@
+.book {
+ 
+
+    &-container {
+        display: flex;
+        flex-direction: row;
+        max-width: 75vw;
+        margin-bottom: 5rem;
+    }
+
+    &-img {
+        width: 30rem;
+        max-height: 100%;
+
+        &-container {
+            width: 30rem;
+        }
+    }
+
+    &-description {
+        padding-left: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    &-order {
+        border: 1px solid $anchor-hover-color;
+        border-radius: .5rem;
+        width: 100%;
+        height: 10rem;
+        margin: 5rem;
+        padding: 1.5rem;
+        background-color: $anchor-hover-color;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #fff;
+            border: #fff;
+            color: $anchor-hover-color;
+        }
+
+        &.amazon {
+            background-color: #F1901E;
+            border: #F1901E;
+        }
+
+        &.amazon:hover{
+            background-color: #fff;
+            border: #fff;
+            color: #F1901E;
+        }
+    }
+
+}
