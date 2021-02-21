@@ -36,7 +36,7 @@ const useStyles = makeStyles({
   },
   label: {
     textDecoration: "none",
-  }
+  },
 });
 
 function PoemsEssaysMore() {
@@ -80,101 +80,85 @@ function PoemsEssaysMore() {
           </p>
 
           <h2 className="header-md2">Poems and Creative Essays</h2>
+          <a
+            href="https://muse.jhu.edu/article/522835/pdf"
+            target="blank"
+            className={classes.label}
+          >
+            <Card className={classes.root}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Poem
+                </Typography>
+                <Typography variant="body2" component="p">
+                  The Southern Review (49:4, Autumn 2013) on Project Muse.
+                </Typography>
+              </CardContent>
+            </Card>
+          </a>
 
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Poem
-              </Typography>
-              <Typography variant="body2" component="p">
-                The Southern Review (49:4, Autumn 2013) on Project Muse.
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <a
-                href="https://muse.jhu.edu/article/522835/pdf"
+          <a
+            href="https://www.connotationpress.com/a-poetry-congeries-with-john-hoppenthaler/2009/december-2009/246-martin-lammon-poetry"
+            target="blank"
+            className={classes.label}
+          >
+            <Card className={classes.root}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Poem
+                </Typography>
+                <Typography variant="body2" component="p">
+                  “Sestina Qué Triste,” Connotation Press (Vol. III, Issue VI,
+                  July 2017).
+                </Typography>
+              </CardContent>
+            </Card>
+          </a>
+
+          <a
+            href="https://ttr.tusculum.edu/2012/12/06/poems-by-martin-lammon/"
+            target="blank"
+            className={classes.label}
+          >
+            <Card className={classes.root}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Poem
+                </Typography>
+                <Typography variant="body2" component="p">
+                  The Tusculum Review online (December 6, 2012).
+                </Typography>
+              </CardContent>
+            </Card>
+          </a>
+
+          <a
+                  href="https://ir.uiowa.edu/cgi/viewcontent.cgi?article=5737&context=iowareview"
+                  target="blank"
+                  className={classes.label}
+                >
+            <Card className={classes.root}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Essay
+                </Typography>
+                <Typography variant="body2" component="p">
+                  “My Name Is,” in The Iowa Review (33:3, Winter 2003-2004;
+                  runner-up for the Iowa Award for Literary Nonfiction). This
+                  essay actually combined two essays (“My Name Is” and “Moon
+                  Man”), included in a collection of essays in-progress about
+                  living in Costa Rica: “Nine Degrees North: Essays from the
+                  Land of la Pura Vida.”
+                </Typography>
+              </CardContent>
+            </Card>
+          </a>
+
+          <a
+                href="https://ir.uiowa.edu/cgi/viewcontent.cgi?article=3461&context=iowareview"
                 target="blank"
                 className={classes.label}
               >
-                <Button size="small" className={classes.anchor}>
-                  Read Now
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Poem
-              </Typography>
-              <Typography variant="body2" component="p">
-                “Sestina Qué Triste,” Connotation Press (Vol. III, Issue VI,
-                July 2017).
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <a
-                href="https://www.connotationpress.com/a-poetry-congeries-with-john-hoppenthaler/2009/december-2009/246-martin-lammon-poetry"
-                target="blank"
-                className={classes.label}
-              >
-                <Button size="small" className={classes.anchor}>
-                  Read Now
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Poem
-              </Typography>
-              <Typography variant="body2" component="p">
-                The Tusculum Review online (December 6, 2012).
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <a
-                href="https://ttr.tusculum.edu/2012/12/06/poems-by-martin-lammon/"
-                target="blank"
-                className={classes.label}
-              >
-                <Button size="small" className={classes.anchor}>
-                  Read Now
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Essay
-              </Typography>
-              <Typography variant="body2" component="p">
-                “My Name Is,” in The Iowa Review (33:3, Winter 2003-2004;
-                runner-up for the Iowa Award for Literary Nonfiction). This
-                essay actually combined two essays (“My Name Is” and “Moon
-                Man”), included in a collection of essays in-progress about
-                living in Costa Rica: “Nine Degrees North: Essays from the Land
-                of la Pura Vida.”
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <a
-                href="https://ir.uiowa.edu/cgi/viewcontent.cgi?article=5737&context=iowareview"
-                target="blank"
-                className={classes.label}
-              >
-                <Button size="small" className={classes.anchor}>
-                  Read Now
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-
           <Card className={classes.root}>
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
@@ -187,19 +171,15 @@ function PoemsEssaysMore() {
                 criticism, and creative nonfiction.
               </Typography>
             </CardContent>
-            <CardActions>
-              <a
-                href="https://ir.uiowa.edu/cgi/viewcontent.cgi?article=3461&context=iowareview"
+          </Card>
+          </a>
+
+
+          <a
+                href="https://www.youtube.com/watch?v=F4eo2MoDXeo"
                 target="blank"
                 className={classes.label}
               >
-                <Button size="small" className={classes.anchor}>
-                  Read Now
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-
           <Card className={classes.root}>
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
@@ -209,18 +189,8 @@ function PoemsEssaysMore() {
                 Poetry reading, Poetry @ Tech (August 26, 2006)
               </Typography>
             </CardContent>
-            <CardActions>
-              <a
-                href="https://www.youtube.com/watch?v=F4eo2MoDXeo"
-                target="blank"
-                className={classes.label}
-              >
-                <Button size="small" className={classes.anchor}>
-                  Watch Now
-                </Button>
-              </a>
-            </CardActions>
           </Card>
+          </a>
 
           <h2 className="header-md2 essay">
             Interviews, Essays, Observations, and More
