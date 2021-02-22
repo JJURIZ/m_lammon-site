@@ -25,3 +25,12 @@ a:hover {
     font-weight: 100;
     margin-bottom: 1rem;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .article-paragraph {
+        max-width: 95vw;
+        padding-bottom: 3rem;
+        margin-left: 1rem;
+    }
+}

@@ -1,6 +1,5 @@
 .book {
  
-
     &-container {
         display: flex;
         flex-direction: row;
@@ -50,4 +49,32 @@
         }
     }
 
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .book {
+        &-description {
+            margin: 0 0 0 1rem;
+            padding: 0;
+            width: 95vw;
+            font-size: 2rem;
+            padding-bottom: 2rem;
+        }
+        &-container {
+            display: flex;
+            flex-direction: column;
+            max-width: 75vw;
+            margin-bottom: 5rem;
+            align-items: center;
+        }
+
+        &-order {
+            font-size: 1.5rem;
+            width: 75%;
+            height: 5rem;
+            margin: 1rem;
+            padding: .5rem;
+
+    }
+    }
 }

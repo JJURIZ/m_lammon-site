@@ -1,12 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles"; // imports option to make custom styles
 import { Link } from "react-router-dom";
 import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
-
 
 
 function HideOnScroll(props) {
@@ -50,21 +48,21 @@ function Header(props) {
       <AppBar>
         <Toolbar>
         <Typography className={classes.menuButton} variant="h6">
-            <Link className={classes.menuButton} to="/">Home</Link>
+            <Link className={classes.menuButton} id="media-anchor" to="/">Home</Link>
           </Typography>
           <Typography className={classes.menuButton} variant="h6">
-            <Link className={classes.menuButton} to="/profile">Profile</Link>
+            <Link className={classes.menuButton} id="media-anchor" to="/profile">Profile</Link>
           </Typography>
           <Typography className={classes.menuButton} variant="h6">
-            <Link className={classes.menuButton} to="/books">Books</Link>
+            <Link className={classes.menuButton} id="media-anchor" to="/books">Books</Link>
           </Typography>
           <Typography className={classes.menuButton} variant="h6">
-            <Link className={classes.menuButton} to="/poems-essays-more">
-              Poems, Essays, and More
+            <Link className={classes.menuButton} id="media-anchor" to="/poems-essays-more">
+              Poems
             </Link>
           </Typography>
           <Typography className={classes.menuButton} variant="h6">
-            <Link className={classes.menuButton} to="/about">
+            <Link className={classes.menuButton} id="media-anchor" to="/about">
               About
             </Link>
           </Typography>

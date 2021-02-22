@@ -36,6 +36,14 @@
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .book-container {
+        flex-direction: column;
+    }
+
+    .article-paragraph {
+        max-width: 95vw;
+        margin: 0;
+    }
 
     .header {
 
@@ -46,7 +54,12 @@
         &-md3 {
             font-size: 1.5rem;
             padding-bottom: 2rem;
+
+            &.title {
+                font-size: 1.5rem;
+            }
         }
+
     }
     
     .img-long-road {
@@ -61,10 +74,29 @@
 
         &-text {
             width: 90vw;
-            font-size: 1.3rem;
-            line-height: 1.5rem;
+            font-size: 2rem;
+            line-height: 2.5rem;
         }
     }
+
+    .makeStyles-menuButton-1 {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    #media-anchor {
+        margin-right: .5rem;
+    }
+
+    .about-img {
+        width: 100vw;
+    }
+
+    .Footer {
+        font-size: 1.5rem;
+    }
+
+
 }
 
 // @media screen and (max-width: 1440px) and (max-height:1000px) {
